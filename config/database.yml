@@ -1,0 +1,10 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+development:
+  adapter: postgresql
+  database: demoapp
+  username: postgres
+  password: ansh04032010$
+  host: localhost
